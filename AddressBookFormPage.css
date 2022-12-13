@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 15px 0;
+    background-color: #ffff;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgb(57, 115, 182);
+}
+.addressbook-text{
+    text-align: left;
+    font: normal normal bold 12px/25px Montserrat;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+    padding-left: 3px;
+    color: #008CFF;
+    text-transform: uppercase;
+    line-height: 0px;
+}
+.book-text{
+    color: #42515F;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
+.logo-content-img {
+    border: solid 0px #42515f;
+}
+
+.image{
+    height: 27px;
+    width: 30px;
+}
+*{
+    box-sizing: border-box;
+}
+.form-head-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    height: 60px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.form-head {
+    color: white;
+    font-family: "Verdana", sans-serif;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font: normal normal normal 20px/37px Roboto;
+    letter-spacing: 0px;
+    background-color: #008CFF;
+    text-transform: uppercase;
+    opacity: 1;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.form-logo-content {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 20%;
+}
+.form-content {
+    padding-top: 20px;
+    min-height: calc(30% - 80%);
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 65%;
+    justify-content: center;
+    background: #FFFFFF 0% 0% ;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+.form-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    justify-content: right;
+}
+
+.button {
+    width: auto;
+    justify-content: right;
+    background-color: #008CFF;
+    align-items: right;
+    margin-left: 300px;
+    margin-right: 15px;
+    border-color: #008CFF;
+}
+.image-cancel{
+    size: auto;
+}
+
+
+.row-content{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: left;
+    border: 0px solid #008CFF;
+}
+.lable{
+    min-width: 140px;
+}
+label{
+    padding: 5px 12px 12px 0;
+    display: inline-block;
+}
+.text{
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.input-wrapper {
+    padding-top: 20px;
+    position: relative;
+  }
+  
+  .in-line-name {
+    padding-top: 10px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    line-height: 6ex;
+  }
+  
+  .in-line {
+    margin-top: 10px;
+    margin-left: 60px;
+    min-width: 140px;
+    position: absolute;
+    color: #008CFF;
+    top: 0.2ex;
+    z-index: 1;
+    left: 2em;
+    background-color: white;
+    padding: 0 10px;
+  }
+
+  .input-content {
+    width: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.seleted-row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: left;
+    border: 0px solid #008CFF;
+}
+
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+.add-reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    margin: 30px 80px 50px 0;
+}
+
+.btn{
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.addButton{
+    background-color: #f5f5f5;
+    margin-right: 150px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.resetButton{
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
